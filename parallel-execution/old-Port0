@@ -1,0 +1,416 @@
+Traffic on Class 0 of Port0
+===========================================
+------------------------------------------------------------
+Client connecting to 102.10.10.96, TCP port 5002
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  4] local 102.10.10.21 port 42418 connected with 102.10.10.96 port 5002
+[  3] local 102.10.10.21 port 42412 connected with 102.10.10.96 port 5002
+===========================================
+Traffic on Class 1 of Port0
+===========================================
+------------------------------------------------------------
+Client connecting to 102.11.11.96, TCP port 5002
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  4] local 102.11.11.21 port 48052 connected with 102.11.11.96 port 5002
+[  3] local 102.11.11.21 port 48050 connected with 102.11.11.96 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-125.4 sec  8.25 MBytes   552 Kbits/sec
+[  4]  0.0-146.5 sec  8.62 MBytes   494 Kbits/sec
+[SUM]  0.0-146.5 sec  16.9 MBytes   966 Kbits/sec
+===========================================
+Traffic on Class 2 of Port0
+===========================================
+------------------------------------------------------------
+Client connecting to 102.12.12.96, TCP port 5002
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.12.12.21 port 60114 connected with 102.12.12.96 port 5002
+[  4] local 102.12.12.21 port 60112 connected with 102.12.12.96 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-120.5 sec  13.0 MBytes   905 Kbits/sec
+[  3]  0.0-120.9 sec  13.2 MBytes   919 Kbits/sec
+[SUM]  0.0-120.9 sec  26.2 MBytes  1.82 Mbits/sec
+===========================================
+Traffic on Class 3 of Port0
+===========================================
+------------------------------------------------------------
+Client connecting to 102.13.13.96, TCP port 5002
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.13.13.21 port 59538 connected with 102.13.13.96 port 5002
+[  4] local 102.13.13.21 port 59536 connected with 102.13.13.96 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-127.9 sec  11.4 MBytes   746 Kbits/sec
+[  4]  0.0-138.4 sec  12.0 MBytes   727 Kbits/sec
+[SUM]  0.0-138.4 sec  23.4 MBytes  1.42 Mbits/sec
+===========================================
+Traffic on Class 4 of Port0
+===========================================
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-120.0 sec  3.22 MBytes   225 Kbits/sec
+[  4]  0.0-120.0 sec  3.50 MBytes   245 Kbits/sec
+[SUM]  0.0-120.0 sec  6.72 MBytes   470 Kbits/sec
+------------------------------------------------------------
+Client connecting to 102.14.14.96, TCP port 5002
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.14.14.21 port 57022 connected with 102.14.14.96 port 5002
+[  4] local 102.14.14.21 port 57018 connected with 102.14.14.96 port 5002
+===========================================
+Traffic on Class 5 of Port0
+===========================================
+------------------------------------------------------------
+Client connecting to 102.15.15.96, TCP port 5002
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.15.15.21 port 38652 connected with 102.15.15.96 port 5002
+[  4] local 102.15.15.21 port 38650 connected with 102.15.15.96 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-126.1 sec  9.00 MBytes   599 Kbits/sec
+[  4]  0.0-129.2 sec  8.25 MBytes   536 Kbits/sec
+[SUM]  0.0-129.2 sec  17.2 MBytes  1.12 Mbits/sec
+===========================================
+Traffic on Class 6 of Port0
+===========================================
+------------------------------------------------------------
+Client connecting to 102.16.16.96, TCP port 5002
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.16.16.21 port 37136 connected with 102.16.16.96 port 5002
+[  4] local 102.16.16.21 port 37134 connected with 102.16.16.96 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-127.9 sec  6.88 MBytes   451 Kbits/sec
+[  3]  0.0-131.2 sec  5.75 MBytes   368 Kbits/sec
+[SUM]  0.0-131.2 sec  12.6 MBytes   807 Kbits/sec
+===========================================
+Traffic on Class 7 of Port0
+===========================================
+------------------------------------------------------------
+Client connecting to 102.17.17.96, TCP port 5002
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.17.17.21 port 48930 connected with 102.17.17.96 port 5002
+[  4] local 102.17.17.21 port 48926 connected with 102.17.17.96 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-123.0 sec  10.6 MBytes   724 Kbits/sec
+[  4]  0.0-124.9 sec  10.1 MBytes   680 Kbits/sec
+[SUM]  0.0-124.9 sec  20.8 MBytes  1.39 Mbits/sec
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-120.0 sec  0.00 ˆ ­ûs  1229781739205543936 Bytes/sec
+[  4]  0.0-120.0 sec  0.00 ˆ ­ûs  1229781739205649408 Bytes/sec
+[SUM]  0.0-120.0 sec  0.00 ˆ ­ûs  1229781739201085952 Bytes/sec
+===========================================
+Traffic on Class 8 of Port0
+===========================================
+------------------------------------------------------------
+Client connecting to 102.18.18.96, TCP port 5002
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.18.18.21 port 43590 connected with 102.18.18.96 port 5002
+[  4] local 102.18.18.21 port 43588 connected with 102.18.18.96 port 5002
+===========================================
+Traffic on Class 9 of Port0
+===========================================
+------------------------------------------------------------
+Client connecting to 102.19.19.96, TCP port 5002
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.19.19.21 port 60230 connected with 102.19.19.96 port 5002
+[  4] local 102.19.19.21 port 60226 connected with 102.19.19.96 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-120.3 sec  11.8 MBytes   820 Kbits/sec
+[  4]  0.0-121.1 sec  12.5 MBytes   866 Kbits/sec
+[SUM]  0.0-121.1 sec  24.2 MBytes  1.68 Mbits/sec
+===========================================
+Traffic on Class 10 of Port0
+===========================================
+------------------------------------------------------------
+Client connecting to 102.20.20.96, TCP port 5002
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  4] local 102.20.20.21 port 42358 connected with 102.20.20.96 port 5002
+[  3] local 102.20.20.21 port 42360 connected with 102.20.20.96 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-123.3 sec  8.75 MBytes   595 Kbits/sec
+[  4]  0.0-133.8 sec  9.50 MBytes   596 Kbits/sec
+[SUM]  0.0-133.8 sec  18.2 MBytes  1.14 Mbits/sec
+===========================================
+Traffic on Class 11 of Port0
+===========================================
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-120.0 sec  0.00 ˆ ­ûs  1229782015909388544 Bytes/sec
+[  3]  0.0-120.0 sec  0.00 ˆ ­ûs  1229782149135625984 Bytes/sec
+[SUM]  0.0-120.0 sec  0.00 ˆ ­ûs  1229782015907923456 Bytes/sec
+------------------------------------------------------------
+Client connecting to 102.21.21.96, TCP port 5002
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  4] local 102.21.21.21 port 43688 connected with 102.21.21.96 port 5002
+[  3] local 102.21.21.21 port 43690 connected with 102.21.21.96 port 5002
+===========================================
+Traffic on Class 12 of Port0
+===========================================
+------------------------------------------------------------
+Client connecting to 102.22.22.96, TCP port 5002
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.22.22.21 port 40758 connected with 102.22.22.96 port 5002
+[  4] local 102.22.22.21 port 40756 connected with 102.22.22.96 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-120.5 sec  11.8 MBytes   818 Kbits/sec
+[  4]  0.0-120.7 sec  12.0 MBytes   834 Kbits/sec
+[SUM]  0.0-120.7 sec  23.8 MBytes  1.65 Mbits/sec
+===========================================
+Traffic on Class 13 of Port0
+===========================================
+------------------------------------------------------------
+Client connecting to 102.23.23.96, TCP port 5002
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  4] local 102.23.23.21 port 49014 connected with 102.23.23.96 port 5002
+[  3] local 102.23.23.21 port 49016 connected with 102.23.23.96 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-148.5 sec  8.70 MBytes   491 Kbits/sec
+[  4]  0.0-148.5 sec  8.96 MBytes   506 Kbits/sec
+[SUM]  0.0-148.5 sec  17.7 MBytes   998 Kbits/sec
+===========================================
+Traffic on Class 14 of Port0
+===========================================
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-120.0 sec  0.00 ˆ ­ûs  1229781903175275264 Bytes/sec
+[  3]  0.0-120.0 sec  0.00 ˆ ­ûs  1229781913423428608 Bytes/sec
+[SUM]  0.0-120.0 sec  0.00 ˆ ­ûs  1229781903169661696 Bytes/sec
+------------------------------------------------------------
+Client connecting to 102.24.24.96, TCP port 5002
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.24.24.21 port 50622 connected with 102.24.24.96 port 5002
+[  4] local 102.24.24.21 port 50618 connected with 102.24.24.96 port 5002
+===========================================
+Traffic on Class 15 of Port0
+===========================================
+------------------------------------------------------------
+Client connecting to 102.25.25.96, TCP port 5002
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  4] local 102.25.25.21 port 35668 connected with 102.25.25.96 port 5002
+[  3] local 102.25.25.21 port 35670 connected with 102.25.25.96 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-123.8 sec  6.37 MBytes   432 Kbits/sec
+[  3]  0.0-124.2 sec  5.91 MBytes   399 Kbits/sec
+[SUM]  0.0-124.2 sec  12.3 MBytes   830 Kbits/sec
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-121.7 sec  12.0 MBytes   827 Kbits/sec
+[  3]  0.0-121.8 sec  11.1 MBytes   766 Kbits/sec
+[SUM]  0.0-121.8 sec  23.1 MBytes  1.59 Mbits/sec
+===========================================
+Traffic on Class 16 of Port0
+===========================================
+------------------------------------------------------------
+Client connecting to 102.26.26.96, TCP port 5002
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.26.26.21 port 47312 connected with 102.26.26.96 port 5002
+[  4] local 102.26.26.21 port 47310 connected with 102.26.26.96 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-120.0 sec  0.00 ˆ ­ûs  1229781882683773696 Bytes/sec
+[  4]  0.0-120.0 sec  0.00 ˆ ­ûs  1229781944172742912 Bytes/sec
+[SUM]  0.0-120.0 sec  0.00 ˆ ­ûs  1229781882682951168 Bytes/sec
+===========================================
+Traffic on Class 17 of Port0
+===========================================
+------------------------------------------------------------
+Client connecting to 102.27.27.96, TCP port 5002
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.27.27.21 port 36942 connected with 102.27.27.96 port 5002
+[  4] local 102.27.27.21 port 36938 connected with 102.27.27.96 port 5002
+===========================================
+Traffic on Class 18 of Port0
+===========================================
+------------------------------------------------------------
+Client connecting to 102.28.28.96, TCP port 5002
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.28.28.21 port 58052 connected with 102.28.28.96 port 5002
+[  4] local 102.28.28.21 port 58048 connected with 102.28.28.96 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-120.5 sec  11.9 MBytes   827 Kbits/sec
+[  3]  0.0-123.9 sec  11.4 MBytes   770 Kbits/sec
+[SUM]  0.0-123.9 sec  23.2 MBytes  1.57 Mbits/sec
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-120.0 sec  0.00 ˆ ­ûs  1229782538565637376 Bytes/sec
+[  4]  0.0-120.0 sec  0.00 ˆ ­ûs  1229782446331770880 Bytes/sec
+[SUM]  0.0-120.0 sec  0.00 ˆ ­ûs  1229782446329430016 Bytes/sec
+===========================================
+Traffic on Class 19 of Port0
+===========================================
+------------------------------------------------------------
+Client connecting to 102.29.29.96, TCP port 5002
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  4] local 102.29.29.21 port 38604 connected with 102.29.29.96 port 5002
+[  3] local 102.29.29.21 port 38606 connected with 102.29.29.96 port 5002
+===========================================
+Traffic on Class 20 of Port0
+===========================================
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-120.0 sec  0.00 ˆ ­ûs  1229781913426367232 Bytes/sec
+[  3]  0.0-120.0 sec  0.00 ˆ ­ûs  1229781913426553088 Bytes/sec
+[SUM]  0.0-120.0 sec  0.00 ˆ ­ûs  1229781913423878144 Bytes/sec
+------------------------------------------------------------
+Client connecting to 102.30.30.96, TCP port 5002
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.30.30.21 port 50286 connected with 102.30.30.96 port 5002
+[  4] local 102.30.30.21 port 50282 connected with 102.30.30.96 port 5002
+===========================================
+Traffic on Class 21 of Port0
+===========================================
+------------------------------------------------------------
+Client connecting to 102.31.31.96, TCP port 5002
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.31.31.21 port 54154 connected with 102.31.31.96 port 5002
+[  4] local 102.31.31.21 port 54150 connected with 102.31.31.96 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-120.1 sec  12.0 MBytes   838 Kbits/sec
+[  4]  0.0-121.6 sec  13.4 MBytes   923 Kbits/sec
+[SUM]  0.0-121.6 sec  25.4 MBytes  1.75 Mbits/sec
+===========================================
+Traffic on Class 22 of Port0
+===========================================
+------------------------------------------------------------
+Client connecting to 102.32.32.96, TCP port 5002
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.32.32.21 port 41878 connected with 102.32.32.96 port 5002
+[  4] local 102.32.32.21 port 41874 connected with 102.32.32.96 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-121.8 sec  11.8 MBytes   809 Kbits/sec
+[  3]  0.0-124.4 sec  10.4 MBytes   700 Kbits/sec
+[SUM]  0.0-124.4 sec  22.1 MBytes  1.49 Mbits/sec
+===========================================
+Traffic on Class 23 of Port0
+===========================================
+------------------------------------------------------------
+Client connecting to 102.33.33.96, TCP port 5002
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  4] local 102.33.33.21 port 46996 connected with 102.33.33.96 port 5002
+[  3] local 102.33.33.21 port 46998 connected with 102.33.33.96 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-121.2 sec  15.1 MBytes  1.05 Mbits/sec
+[  3]  0.0-121.3 sec  14.4 MBytes   994 Kbits/sec
+[SUM]  0.0-121.3 sec  29.5 MBytes  2.04 Mbits/sec
+===========================================
+Traffic on Class 24 of Port0
+===========================================
+------------------------------------------------------------
+Client connecting to 102.34.34.96, TCP port 5002
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.34.34.21 port 60250 connected with 102.34.34.96 port 5002
+[  4] local 102.34.34.21 port 60246 connected with 102.34.34.96 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-120.2 sec  13.0 MBytes   908 Kbits/sec
+[  3]  0.0-121.9 sec  13.6 MBytes   938 Kbits/sec
+[SUM]  0.0-121.9 sec  26.6 MBytes  1.83 Mbits/sec
+===========================================
+Traffic on Class 25 of Port0
+===========================================
+------------------------------------------------------------
+Client connecting to 102.35.35.96, TCP port 5002
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.35.35.21 port 36462 connected with 102.35.35.96 port 5002
+[  4] local 102.35.35.21 port 36458 connected with 102.35.35.96 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-120.9 sec  11.1 MBytes   772 Kbits/sec
+[  3]  0.0-123.4 sec  10.4 MBytes   706 Kbits/sec
+[SUM]  0.0-123.4 sec  21.5 MBytes  1.46 Mbits/sec
+===========================================
+Traffic on Class 26 of Port0
+===========================================
+------------------------------------------------------------
+Client connecting to 102.36.36.96, TCP port 5002
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.36.36.21 port 59332 connected with 102.36.36.96 port 5002
+[  4] local 102.36.36.21 port 59328 connected with 102.36.36.96 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-147.7 sec  6.64 MBytes   377 Kbits/sec
+[  3]  0.0-148.5 sec  7.11 MBytes   401 Kbits/sec
+[SUM]  0.0-148.5 sec  13.7 MBytes   777 Kbits/sec
+===========================================
+Traffic on Class 27 of Port0
+===========================================
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-120.0 sec  0.00 ˆ ­ûs  1229782579555801600 Bytes/sec
+[  4]  0.0-120.0 sec  0.00 ˆ ­ûs  1229782620548463616 Bytes/sec
+[SUM]  0.0-120.0 sec  0.00 ˆ ­ûs  1229782579550805504 Bytes/sec
+------------------------------------------------------------
+Client connecting to 102.37.37.96, TCP port 5002
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.37.37.21 port 47832 connected with 102.37.37.96 port 5002
+[  4] local 102.37.37.21 port 47830 connected with 102.37.37.96 port 5002
+===========================================
+Traffic on Class 28 of Port0
+===========================================
+------------------------------------------------------------
+Client connecting to 102.38.38.96, TCP port 5002
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  4] local 102.38.38.21 port 39936 connected with 102.38.38.96 port 5002
+[  3] local 102.38.38.21 port 39938 connected with 102.38.38.96 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-121.3 sec  6.75 MBytes   467 Kbits/sec
+[  4]  0.0-123.7 sec  6.75 MBytes   458 Kbits/sec
+[SUM]  0.0-123.7 sec  13.5 MBytes   916 Kbits/sec
+===========================================
+Traffic on Class 29 of Port0
+===========================================
+------------------------------------------------------------
+Client connecting to 102.39.39.96, TCP port 5002
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.39.39.21 port 49896 connected with 102.39.39.96 port 5002
+[  4] local 102.39.39.21 port 49894 connected with 102.39.39.96 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-120.6 sec  16.2 MBytes  1.13 Mbits/sec
+[  3]  0.0-121.8 sec  16.9 MBytes  1.16 Mbits/sec
+[SUM]  0.0-121.8 sec  33.1 MBytes  2.28 Mbits/sec
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-120.0 sec  2.11 MBytes   147 Kbits/sec
+[  4]  0.0-120.0 sec  1.72 MBytes   120 Kbits/sec
+[SUM]  0.0-120.0 sec  3.82 MBytes   267 Kbits/sec
+===========================================
+Traffic on Class 30 of Port0
+===========================================
+------------------------------------------------------------
+Client connecting to 102.40.40.96, TCP port 5002
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  4] local 102.40.40.21 port 41690 connected with 102.40.40.96 port 5002
+[  3] local 102.40.40.21 port 41692 connected with 102.40.40.96 port 5002
+===========================================
+Traffic on Class 31 of Port0
+===========================================
+------------------------------------------------------------
+Client connecting to 102.41.41.96, TCP port 5002
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.41.41.21 port 47824 connected with 102.41.41.96 port 5002
+[  4] local 102.41.41.21 port 47822 connected with 102.41.41.96 port 5002
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-120.5 sec  13.1 MBytes   914 Kbits/sec
+[  4]  0.0-122.7 sec  12.8 MBytes   872 Kbits/sec
+[SUM]  0.0-122.7 sec  25.9 MBytes  1.77 Mbits/sec
+===========================================
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-174.7 sec  12.2 MBytes   587 Kbits/sec
+[  4]  0.0-174.7 sec  11.9 MBytes   574 Kbits/sec
+[SUM]  0.0-174.7 sec  24.2 MBytes  1.16 Mbits/sec

@@ -1,0 +1,3 @@
+cxgbtool enp129s0f4  sched-class  params type packet level cl-rl mode class rate-unit bits rate-mode absolute  channel 0 class 1 max-rate 10000000 pkt-size 1460
+cxgbtool enp129s0f4  sched-class  params type packet level cl-rl mode class rate-unit bits rate-mode absolute  channel 1 class 2 max-rate 10000000 pkt-size 1460
+

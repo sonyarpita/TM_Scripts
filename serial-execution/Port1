@@ -1,0 +1,416 @@
+Traffic on Class 0 of Port1
+===========================================
+------------------------------------------------------------
+Client connecting to 102.50.50.96, TCP port 5003
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  4] local 102.50.50.21 port 37462 connected with 102.50.50.96 port 5003
+[  3] local 102.50.50.21 port 37460 connected with 102.50.50.96 port 5003
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-120.0 sec  55.9 GBytes  4.00 Gbits/sec
+[  3]  0.0-120.0 sec  55.9 GBytes  4.00 Gbits/sec
+[SUM]  0.0-120.0 sec   112 GBytes  8.00 Gbits/sec
+===========================================
+Traffic on Class 1 of Port1
+===========================================
+------------------------------------------------------------
+Client connecting to 102.51.51.96, TCP port 5003
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  4] local 102.51.51.21 port 37588 connected with 102.51.51.96 port 5003
+[  3] local 102.51.51.21 port 37586 connected with 102.51.51.96 port 5003
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-120.0 sec  62.9 GBytes  4.50 Gbits/sec
+[  3]  0.0-120.0 sec  62.9 GBytes  4.50 Gbits/sec
+[SUM]  0.0-120.0 sec   126 GBytes  9.00 Gbits/sec
+===========================================
+Traffic on Class 2 of Port1
+===========================================
+------------------------------------------------------------
+Client connecting to 102.52.52.96, TCP port 5003
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.52.52.21 port 49072 connected with 102.52.52.96 port 5003
+[  4] local 102.52.52.21 port 49070 connected with 102.52.52.96 port 5003
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-120.0 sec  69.7 GBytes  4.99 Gbits/sec
+[  4]  0.0-120.0 sec  69.7 GBytes  4.99 Gbits/sec
+[SUM]  0.0-120.0 sec   139 GBytes  9.98 Gbits/sec
+===========================================
+Traffic on Class 3 of Port1
+===========================================
+------------------------------------------------------------
+Client connecting to 102.53.53.96, TCP port 5003
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  4] local 102.53.53.21 port 47834 connected with 102.53.53.96 port 5003
+[  3] local 102.53.53.21 port 47832 connected with 102.53.53.96 port 5003
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-120.0 sec  76.8 GBytes  5.50 Gbits/sec
+[  3]  0.0-120.0 sec  76.8 GBytes  5.50 Gbits/sec
+[SUM]  0.0-120.0 sec   154 GBytes  11.0 Gbits/sec
+===========================================
+Traffic on Class 4 of Port1
+===========================================
+------------------------------------------------------------
+Client connecting to 102.54.54.96, TCP port 5003
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  4] local 102.54.54.21 port 56652 connected with 102.54.54.96 port 5003
+[  3] local 102.54.54.21 port 56650 connected with 102.54.54.96 port 5003
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-120.0 sec  83.6 GBytes  5.99 Gbits/sec
+[  3]  0.0-120.0 sec  83.6 GBytes  5.99 Gbits/sec
+[SUM]  0.0-120.0 sec   167 GBytes  12.0 Gbits/sec
+===========================================
+Traffic on Class 5 of Port1
+===========================================
+------------------------------------------------------------
+Client connecting to 102.55.55.96, TCP port 5003
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  4] local 102.55.55.21 port 43696 connected with 102.55.55.96 port 5003
+[  3] local 102.55.55.21 port 43694 connected with 102.55.55.96 port 5003
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-120.0 sec  90.8 GBytes  6.50 Gbits/sec
+[  3]  0.0-120.0 sec  90.8 GBytes  6.50 Gbits/sec
+[SUM]  0.0-120.0 sec   182 GBytes  13.0 Gbits/sec
+===========================================
+Traffic on Class 6 of Port1
+===========================================
+------------------------------------------------------------
+Client connecting to 102.56.56.96, TCP port 5003
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  4] local 102.56.56.21 port 40608 connected with 102.56.56.96 port 5003
+[  3] local 102.56.56.21 port 40606 connected with 102.56.56.96 port 5003
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-120.0 sec  97.6 GBytes  6.99 Gbits/sec
+[  3]  0.0-120.0 sec  97.6 GBytes  6.98 Gbits/sec
+[SUM]  0.0-120.0 sec   195 GBytes  14.0 Gbits/sec
+===========================================
+Traffic on Class 7 of Port1
+===========================================
+------------------------------------------------------------
+Client connecting to 102.57.57.96, TCP port 5003
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  4] local 102.57.57.21 port 40030 connected with 102.57.57.96 port 5003
+[  3] local 102.57.57.21 port 40028 connected with 102.57.57.96 port 5003
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-120.0 sec   105 GBytes  7.50 Gbits/sec
+[  3]  0.0-120.0 sec   105 GBytes  7.50 Gbits/sec
+[SUM]  0.0-120.0 sec   210 GBytes  15.0 Gbits/sec
+===========================================
+Traffic on Class 8 of Port1
+===========================================
+------------------------------------------------------------
+Client connecting to 102.58.58.96, TCP port 5003
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.58.58.21 port 47928 connected with 102.58.58.96 port 5003
+[  4] local 102.58.58.21 port 47926 connected with 102.58.58.96 port 5003
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-120.0 sec   112 GBytes  7.98 Gbits/sec
+[  4]  0.0-120.0 sec   112 GBytes  7.98 Gbits/sec
+[SUM]  0.0-120.0 sec   223 GBytes  16.0 Gbits/sec
+===========================================
+Traffic on Class 9 of Port1
+===========================================
+------------------------------------------------------------
+Client connecting to 102.59.59.96, TCP port 5003
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.59.59.21 port 42616 connected with 102.59.59.96 port 5003
+[  4] local 102.59.59.21 port 42614 connected with 102.59.59.96 port 5003
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-120.0 sec   119 GBytes  8.50 Gbits/sec
+[  4]  0.0-120.0 sec   119 GBytes  8.50 Gbits/sec
+[SUM]  0.0-120.0 sec   237 GBytes  17.0 Gbits/sec
+===========================================
+Traffic on Class 10 of Port1
+===========================================
+------------------------------------------------------------
+Client connecting to 102.60.60.96, TCP port 5003
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  4] local 102.60.60.21 port 35566 connected with 102.60.60.96 port 5003
+[  3] local 102.60.60.21 port 35564 connected with 102.60.60.96 port 5003
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-120.0 sec   126 GBytes  9.00 Gbits/sec
+[  3]  0.0-120.0 sec   126 GBytes  9.00 Gbits/sec
+[SUM]  0.0-120.0 sec   251 GBytes  18.0 Gbits/sec
+===========================================
+Traffic on Class 11 of Port1
+===========================================
+------------------------------------------------------------
+Client connecting to 102.61.61.96, TCP port 5003
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.61.61.21 port 47678 connected with 102.61.61.96 port 5003
+[  4] local 102.61.61.21 port 47676 connected with 102.61.61.96 port 5003
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-120.0 sec   133 GBytes  9.50 Gbits/sec
+[  4]  0.0-120.0 sec   133 GBytes  9.50 Gbits/sec
+[SUM]  0.0-120.0 sec   265 GBytes  19.0 Gbits/sec
+===========================================
+Traffic on Class 12 of Port1
+===========================================
+------------------------------------------------------------
+Client connecting to 102.62.62.96, TCP port 5003
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.62.62.21 port 55622 connected with 102.62.62.96 port 5003
+[  4] local 102.62.62.21 port 55624 connected with 102.62.62.96 port 5003
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-120.0 sec   140 GBytes  10.0 Gbits/sec
+[  4]  0.0-120.0 sec   140 GBytes  10.0 Gbits/sec
+[SUM]  0.0-120.0 sec   279 GBytes  20.0 Gbits/sec
+===========================================
+Traffic on Class 13 of Port1
+===========================================
+------------------------------------------------------------
+Client connecting to 102.63.63.96, TCP port 5003
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  4] local 102.63.63.21 port 43840 connected with 102.63.63.96 port 5003
+[  3] local 102.63.63.21 port 43842 connected with 102.63.63.96 port 5003
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-120.0 sec   147 GBytes  10.5 Gbits/sec
+[  3]  0.0-120.0 sec   147 GBytes  10.5 Gbits/sec
+[SUM]  0.0-120.0 sec   293 GBytes  21.0 Gbits/sec
+===========================================
+Traffic on Class 14 of Port1
+===========================================
+------------------------------------------------------------
+Client connecting to 102.64.64.96, TCP port 5003
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  4] local 102.64.64.21 port 56370 connected with 102.64.64.96 port 5003
+[  3] local 102.64.64.21 port 56368 connected with 102.64.64.96 port 5003
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-120.0 sec   154 GBytes  11.0 Gbits/sec
+[  3]  0.0-120.0 sec   154 GBytes  11.0 Gbits/sec
+[SUM]  0.0-120.0 sec   307 GBytes  22.0 Gbits/sec
+===========================================
+Traffic on Class 15 of Port1
+===========================================
+------------------------------------------------------------
+Client connecting to 102.65.65.96, TCP port 5003
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.65.65.21 port 34944 connected with 102.65.65.96 port 5003
+[  4] local 102.65.65.21 port 34942 connected with 102.65.65.96 port 5003
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-120.3 sec  7.38 MBytes   514 Kbits/sec
+[  3]  0.0-123.8 sec  7.62 MBytes   516 Kbits/sec
+[SUM]  0.0-123.8 sec  15.0 MBytes  1.02 Mbits/sec
+===========================================
+Traffic on Class 16 of Port1
+===========================================
+------------------------------------------------------------
+Client connecting to 102.66.66.96, TCP port 5003
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  4] local 102.66.66.21 port 49088 connected with 102.66.66.96 port 5003
+[  3] local 102.66.66.21 port 49086 connected with 102.66.66.96 port 5003
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-120.0 sec  55.9 GBytes  4.00 Gbits/sec
+[  3]  0.0-120.0 sec  55.9 GBytes  4.00 Gbits/sec
+[SUM]  0.0-120.0 sec   112 GBytes  8.00 Gbits/sec
+===========================================
+Traffic on Class 17 of Port1
+===========================================
+------------------------------------------------------------
+Client connecting to 102.67.67.96, TCP port 5003
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.67.67.21 port 55190 connected with 102.67.67.96 port 5003
+[  4] local 102.67.67.21 port 55188 connected with 102.67.67.96 port 5003
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-120.0 sec  62.7 GBytes  4.49 Gbits/sec
+[  4]  0.0-120.0 sec  62.7 GBytes  4.49 Gbits/sec
+[SUM]  0.0-120.0 sec   125 GBytes  8.98 Gbits/sec
+===========================================
+Traffic on Class 18 of Port1
+===========================================
+------------------------------------------------------------
+Client connecting to 102.68.68.96, TCP port 5003
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.68.68.21 port 43224 connected with 102.68.68.96 port 5003
+[  4] local 102.68.68.21 port 43222 connected with 102.68.68.96 port 5003
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-120.0 sec  69.8 GBytes  5.00 Gbits/sec
+[  4]  0.0-120.0 sec  69.8 GBytes  5.00 Gbits/sec
+[SUM]  0.0-120.0 sec   140 GBytes  10.0 Gbits/sec
+===========================================
+Traffic on Class 19 of Port1
+===========================================
+------------------------------------------------------------
+Client connecting to 102.69.69.96, TCP port 5003
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  4] local 102.69.69.21 port 56892 connected with 102.69.69.96 port 5003
+[  3] local 102.69.69.21 port 56890 connected with 102.69.69.96 port 5003
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-120.0 sec  76.8 GBytes  5.50 Gbits/sec
+[  3]  0.0-120.0 sec  76.8 GBytes  5.50 Gbits/sec
+[SUM]  0.0-120.0 sec   154 GBytes  11.0 Gbits/sec
+===========================================
+Traffic on Class 20 of Port1
+===========================================
+------------------------------------------------------------
+Client connecting to 102.70.70.96, TCP port 5003
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.70.70.21 port 38684 connected with 102.70.70.96 port 5003
+[  4] local 102.70.70.21 port 38682 connected with 102.70.70.96 port 5003
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-120.0 sec  83.6 GBytes  5.99 Gbits/sec
+[  4]  0.0-120.0 sec  83.6 GBytes  5.99 Gbits/sec
+[SUM]  0.0-120.0 sec   167 GBytes  12.0 Gbits/sec
+===========================================
+Traffic on Class 21 of Port1
+===========================================
+------------------------------------------------------------
+Client connecting to 102.71.71.96, TCP port 5003
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  4] local 102.71.71.21 port 59286 connected with 102.71.71.96 port 5003
+[  3] local 102.71.71.21 port 59284 connected with 102.71.71.96 port 5003
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-120.0 sec  90.2 GBytes  6.46 Gbits/sec
+[  3]  0.0-120.0 sec  90.2 GBytes  6.46 Gbits/sec
+[SUM]  0.0-120.0 sec   180 GBytes  12.9 Gbits/sec
+===========================================
+Traffic on Class 22 of Port1
+===========================================
+------------------------------------------------------------
+Client connecting to 102.72.72.96, TCP port 5003
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  4] local 102.72.72.21 port 45088 connected with 102.72.72.96 port 5003
+[  3] local 102.72.72.21 port 45090 connected with 102.72.72.96 port 5003
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-120.0 sec  97.8 GBytes  7.00 Gbits/sec
+[  3]  0.0-120.0 sec  97.8 GBytes  7.00 Gbits/sec
+[SUM]  0.0-120.0 sec   196 GBytes  14.0 Gbits/sec
+===========================================
+Traffic on Class 23 of Port1
+===========================================
+------------------------------------------------------------
+Client connecting to 102.73.73.96, TCP port 5003
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  4] local 102.73.73.21 port 36774 connected with 102.73.73.96 port 5003
+[  3] local 102.73.73.21 port 36772 connected with 102.73.73.96 port 5003
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-120.0 sec   105 GBytes  7.49 Gbits/sec
+[  3]  0.0-120.0 sec   105 GBytes  7.48 Gbits/sec
+[SUM]  0.0-120.0 sec   209 GBytes  15.0 Gbits/sec
+===========================================
+Traffic on Class 24 of Port1
+===========================================
+------------------------------------------------------------
+Client connecting to 102.74.74.96, TCP port 5003
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.74.74.21 port 58996 connected with 102.74.74.96 port 5003
+[  4] local 102.74.74.21 port 58994 connected with 102.74.74.96 port 5003
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-120.0 sec   112 GBytes  8.00 Gbits/sec
+[  4]  0.0-120.0 sec   112 GBytes  8.00 Gbits/sec
+[SUM]  0.0-120.0 sec   224 GBytes  16.0 Gbits/sec
+===========================================
+Traffic on Class 25 of Port1
+===========================================
+------------------------------------------------------------
+Client connecting to 102.75.75.96, TCP port 5003
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  4] local 102.75.75.21 port 34260 connected with 102.75.75.96 port 5003
+[  3] local 102.75.75.21 port 34258 connected with 102.75.75.96 port 5003
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-120.0 sec   118 GBytes  8.42 Gbits/sec
+[  3]  0.0-120.0 sec   120 GBytes  8.58 Gbits/sec
+[SUM]  0.0-120.0 sec   237 GBytes  17.0 Gbits/sec
+===========================================
+Traffic on Class 26 of Port1
+===========================================
+------------------------------------------------------------
+Client connecting to 102.76.76.96, TCP port 5003
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.76.76.21 port 60016 connected with 102.76.76.96 port 5003
+[  4] local 102.76.76.21 port 60014 connected with 102.76.76.96 port 5003
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-120.0 sec   126 GBytes  9.00 Gbits/sec
+[  4]  0.0-120.0 sec   126 GBytes  9.00 Gbits/sec
+[SUM]  0.0-120.0 sec   251 GBytes  18.0 Gbits/sec
+===========================================
+Traffic on Class 27 of Port1
+===========================================
+------------------------------------------------------------
+Client connecting to 102.77.77.96, TCP port 5003
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  4] local 102.77.77.21 port 51502 connected with 102.77.77.96 port 5003
+[  3] local 102.77.77.21 port 51500 connected with 102.77.77.96 port 5003
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-120.0 sec   133 GBytes  9.50 Gbits/sec
+[  3]  0.0-120.0 sec   133 GBytes  9.50 Gbits/sec
+[SUM]  0.0-120.0 sec   265 GBytes  19.0 Gbits/sec
+===========================================
+Traffic on Class 28 of Port1
+===========================================
+------------------------------------------------------------
+Client connecting to 102.78.78.96, TCP port 5003
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  4] local 102.78.78.21 port 45558 connected with 102.78.78.96 port 5003
+[  3] local 102.78.78.21 port 45556 connected with 102.78.78.96 port 5003
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-120.0 sec   140 GBytes  10.0 Gbits/sec
+[  3]  0.0-120.0 sec   139 GBytes  9.98 Gbits/sec
+[SUM]  0.0-120.0 sec   279 GBytes  20.0 Gbits/sec
+===========================================
+Traffic on Class 29 of Port1
+===========================================
+------------------------------------------------------------
+Client connecting to 102.79.79.96, TCP port 5003
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  4] local 102.79.79.21 port 54036 connected with 102.79.79.96 port 5003
+[  3] local 102.79.79.21 port 54034 connected with 102.79.79.96 port 5003
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-120.0 sec   147 GBytes  10.5 Gbits/sec
+[  3]  0.0-120.0 sec   146 GBytes  10.5 Gbits/sec
+[SUM]  0.0-120.0 sec   293 GBytes  21.0 Gbits/sec
+===========================================
+Traffic on Class 30 of Port1
+===========================================
+------------------------------------------------------------
+Client connecting to 102.80.80.96, TCP port 5003
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.80.80.21 port 57862 connected with 102.80.80.96 port 5003
+[  4] local 102.80.80.21 port 57860 connected with 102.80.80.96 port 5003
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-120.0 sec   154 GBytes  11.0 Gbits/sec
+[  4]  0.0-120.0 sec   154 GBytes  11.0 Gbits/sec
+[SUM]  0.0-120.0 sec   307 GBytes  22.0 Gbits/sec
+===========================================
+Traffic on Class 31 of Port1
+===========================================
+------------------------------------------------------------
+Client connecting to 102.81.81.96, TCP port 5003
+TCP window size: 48.0 KByte (default)
+------------------------------------------------------------
+[  4] local 102.81.81.21 port 50064 connected with 102.81.81.96 port 5003
+[  3] local 102.81.81.21 port 50066 connected with 102.81.81.96 port 5003
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0-120.0 sec   164 GBytes  11.7 Gbits/sec
+[  3]  0.0-120.0 sec   164 GBytes  11.7 Gbits/sec
+[SUM]  0.0-120.0 sec   328 GBytes  23.5 Gbits/sec
+===========================================
