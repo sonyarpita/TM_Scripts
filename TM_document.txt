@@ -1,0 +1,199 @@
+=====================================================General Facts==========================================================
+
+1. Tested over TCP TOE and TCP NIC 
+2. TOE supports 0-30 classes . NIC supports min(31,number of CPU cores)
+3. Supports both IPv4 and IPv6 
+4. Error margin of +- 10% is allowed
+5. Limitations - 
+   i.   Flow mode is not supported for NIC mode 
+   ii.  Both flow and class mode cannot exist simultaneously 
+   iii. Configuring class mode after configuring flow mode yields incorrect data . Reboot is necessary for TOE 
+   iv.  Once rules are configured, they cannot be flushed 
+   v.   No option to read rules, only way is to read devlog 
+   vi.  Only TX traffic shaping is supported
+
+===================================================Generic Steps==========================================================
+
+1. For TOE 
+----------
+Step 1 - Bind connection to class, using either COP rule or using modified application 
+Step 2 - Configure rules on classes 
+
+2. For NIC 
+----------
+Step 1 - Bind connection to queue using TC 
+Step 2 - Bind queue to class using cxgbtool 
+Step 3 - Configure rules on classes 
+
+=================================================Scheduler hierarchy levels=============================================== 
+1. Class Rate Limiting
+   - This scheduler hierarchy level can be used to rate limit individual traffic classes or individual connections (flow) in a traffic class
+
+2. Class Weighted Round Robin
+   - Traffic flows from various applications can be prioritized and provisioned using a weighted round-robin scheduling algorithm. 
+
+3. Channel Rate Limiting
+   - This scheduler hierarchy level can be used to rate limit port speed 
+
+=================================================Offload [TOE] Configuration=============================================
+Step 1 - Bind connection to class
+------
+(a) Using COP 
+(b) Using modified application 
+
++++++++++++++
+(a) Using COP
++++++++++++++
+- Configure 31 IPs per port on DUT and Peer . 1 for each supported class per port 
+- Example : 
+  On Port0 
+     102.10.10.77 - 102.40.40.77
+- Mapping : 
+    Refer rules_cop.txt 
+
+++++++++++++++++++++++++++++++
+(b) Using modified application
+++++++++++++++++++++++++++++++
+<I will add later> 
+
+Step 2 - Configure rules on classes  
+------
+(a) Class RL
+(b) Class WRR
+(c) Channel RL 
+
+
+++++++++++++++++
+(a) Class RL
++++++++++++++++
+- Example 1 - Refer class-rules-31-class.sh
+  # cxgbtool enp4s0f4 sched-class params type packet level cl-rl mode class rate-unit bits rate-mode absolute  channel 0 class 0 max-rate 100000 pkt-size 1460
+  Based on the above command, 
+    -> Traffic that is bound to class 0 of Port0 should not exceed 100Mbps 
+    -> mode is class, which means irrespective of the number of connections on class 0 of Port0, the total speed should not exceed 100Mbps 
+    -> rate-mode is absolute, which means the parameter "max-rate" expects an absolute value in terms of kbps 
+    -> pkt-size is 1460 for MTU 1500 . This value differs based on the value of MTU 
+
+- Example 2 - Refer class-rules-31-flow.sh
+  # cxgbtool enp4s0f4 sched-class params type packet level cl-rl mode flow rate-unit bits rate-mode absolute channel 1 class 11 max-rate 100000 pkt-size 1460 
+  Based on the above command,
+    -> Traffic that is bound to class 11 of Port1 should not exceed 100Mbps
+    -> mode is flow, each connection should not exceed 100Mbps
+    -> rate-mode is absolute, which means the parameter "max-rate" expects an absolute value in terms of kbps
+    -> pkt-size is 1460 for MTU 1500 . This value differs based on the value of MTU
+
+- List of configurable parameters - 
+    -> mode - class/flow
+    -> rate-modes - absolute/relative
+    -> max-rate - based on rate-mode, if rate-mode is absolute then max-rate is in kbps, if rate-mode is relative then max-rate is 1-99% 
+    -> channel - 0/1
+    -> class   - 0/1/2.../30 
+    -> pkt-size - based on MTU [MTU minus 40] 
+
+++++++++++++++++
+(b) Class WRR
+++++++++++++++++
+- Example 1 - Refer wrr-rule.sh 
+  # cxgbtool enp3s0f4 sched-class params type packet level cl-wrr channel 0 class 0 weight 10
+  # cxgbtool enp3s0f4 sched-class params type packet level cl-wrr channel 0 class 1 weight 90
+  Based on the above command, 
+    -> When traffic flows on class 0 and class 1 of Port0 simultaneously, traffic on Class 0 gets rate limited to 10% of port speed, while traffic on CLass 1 gets rate limited to 90% of port speed 
+
+- Example 2 - 
+  # cxgbtool enp3s0f4 sched-class params type packet level cl-wrr channel 0 class 0 weight 10
+  # cxgbtool enp3s0f4 sched-class params type packet level cl-wrr channel 0 class 10 weight 20
+  # cxgbtool enp3s0f4 sched-class params type packet level cl-wrr channel 0 class 1 weight 40
+  # cxgbtool enp3s0f4 sched-class params type packet level cl-wrr channel 0 class 2 weight 30
+  Based on the above command,
+    -> When traffic flows on class 0, class 1, class 2 and class 10 of Port0 simultaneously, traffic on Class 0 gets rate limited to 10% of port speed, traffic on Class 1 gets rate limited to 40% of port speed, traffic on Class 2 gets rate limited to 30% of port speed and traffic on Class 10 gets rate limited to 20% of port speed 
+
+- List of configurable parameters -
+    -> channel - 0/1
+    -> class   - 0/1/2.../30
+    -> weight  - 1-99%
+  
+
++++++++++++++++
+(c) Channel RL
++++++++++++++++
+- Example 1 - Refer chrl-rules.sh
+  # cxgbtool enp4s0f4 sched-class params type packet level ch-rl rate-unit bits rate-mode relative channel 0 max-rate 10
+  # cxgbtool enp4s0f4 sched-class params type packet level ch-rl rate-unit bits rate-mode relative channel 1 max-rate 30
+  Based on the above command, 
+    -> Traffic on Port0 is rate limited to 10% of port speed i.e., maximum rate achievable is 10% of port speed .
+    -> Traffic on Port1 is rate limited to 30% of port speed i.e., maximum rate achievable is 30% of port speed .
+
+- List of configurable parameters -
+    -> rate-mode - absolute/relative
+    -> channel - 0/1
+    -> max-rate  - based on rate-mode, if rate-mode is absolute then max-rate is in kbps, if rate-mode is relative then max-rate is 1-99%
+
+
+=================================================Non-Offload [NIC] Configuration=============================================
+Step 1 - Bind connection to queue using TC
+------
+- Example 1 - 
+  # tc qdisc add dev enp3s0f4 root handle 1: multiq
+  # tc filter add dev enp3s0f4 parent 1: protocol 802.1q prio 1 u32 match ip dst 102.12.12.85 action skbedit queue_mapping 2
+  # tc filter add dev enp3s0f4 parent 1: protocol 802.1q prio 1 u32 match ip dst 102.11.11.85 action skbedit queue_mapping 1
+  Based on the above set of commands, 
+    -> VLAN with destination IP 102.12.12.85 is bound to queue 2 
+    -> VLAN with destination IP 102.11.11.85 is bound to queue 1
+   
+
+Step 2 - Bind queue to class using cxgbtool
+------
+# cxgbtool <interface_name> <queue_number> <class_number>
+- Example 1 - 
+  # cxgbtool enp3s0f4 sched-queue 2 2
+  # cxgbtool enp3s0f4 sched-queue 1 1
+  Based on the above set of commands, 
+    -> Queue 2 is bound to class 2 
+    -> Queue 1 is bound to class 1 
+
+
+Step 3 - Configure rules on classes
+------
+Refer Step 2 of " Offload Configuration "
+
+Overall Example for NIC - 
+-----------------------
+tc qdisc add dev enp3s0f4 root handle 1: multiq
+tc filter add dev enp3s0f4 parent 1: protocol 802.1q prio 1 u32 match ip dst 102.12.12.85  action skbedit queue_mapping 2
+tc filter add dev enp3s0f4 parent 1: protocol 802.1q prio 1 u32 match ip dst 102.11.11.85  action skbedit queue_mapping 1
+cxgbtool enp3s0f4 sched-queue 2 2
+cxgbtool enp3s0f4 sched-queue 1 1
+cxgbtool enp3s0f4  sched-class  params type packet level cl-rl mode class rate-unit bits rate-mode absolute  channel 0 class 2 max-rate 100000 pkt-size 1460
+cxgbtool enp3s0f4  sched-class  params type packet level cl-rl mode class rate-unit bits rate-mode absolute  channel 0 class 1 max-rate 100000 pkt-size 1460
+
+iperf -c 102.12.12.85
+------------------------------------------------------------
+Client connecting to 102.12.12.85, TCP port 5001
+TCP window size: 85.0 KByte (default)
+------------------------------------------------------------
+[  3] local 102.12.12.89 port 59388 connected with 102.12.12.85 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec   115 MBytes  96.1 Mbits/sec
+
+Change the rule to max 600 Mbps - 
++++++++++++++++++++++++++++++++
+cxgbtool enp3s0f4  sched-class  params type packet level cl-rl mode class rate-unit bits rate-mode absolute  channel 0 class 2 max-rate 600000 pkt-size 1460
+
+iperf -c 102.12.12.85 -P100 
+------------------------------------------------------------
+Client connecting to 102.12.12.85, TCP port 5001
+TCP window size: 85.0 KByte (default)
+------------------------------------------------------------
+......
+[SUM]  0.0-11.8 sec   820 MBytes   581 Mbits/sec
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PENDING - NIC Example for IPv6
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+      
+
+
+
+
+
+
